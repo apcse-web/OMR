@@ -1,0 +1,52 @@
+[
+    {
+        "question_number": 1,
+        "correct_answer": "A",
+        "points": 1
+    },
+    {
+        "question_number": 2,
+        "correct_answer": "B",
+        "points": 1
+    },
+    {
+        "question_number": 3,
+        "correct_answer": "A",
+        "points": 1
+    },
+    {
+        "question_number": 4,
+        "correct_answer": "B",
+        "points": 1
+    },
+    {
+        "question_number": 5,
+        "correct_answer": "C",
+        "points": 1
+    },
+    {
+        "question_number": 6,
+        "correct_answer": "D",
+        "points": 1
+    },
+    {
+        "question_number": 7,
+        "correct_answer": "D",
+        "points": 1
+    },
+    {
+        "question_number": 8,
+        "correct_answer": "A",
+        "points": 1
+    },
+    {
+        "question_number": 9,
+        "correct_answer": "C",
+        "points": 1
+    },
+    {
+        "question_number": 10,
+        "correct_answer": "B",
+        "points": 1
+    }
+]
