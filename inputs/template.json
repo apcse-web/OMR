@@ -1,0 +1,89 @@
+{
+  "pageDimensions": [
+    1083,
+    1702
+  ],
+  "bubbleDimensions": [
+    22,
+    22
+  ],
+  "customLabels": {
+    "Appar_ID": [
+      "roll1..12"
+    ],
+    "part_d": [
+      "part_d1", "part_d2", "part_d3", "part_d4", "part_d5", "part_d6", "part_d7"
+    ],
+    "Exam_code": [
+      "exam code1..3"
+    ]
+  },
+  "fieldBlocks": {
+    "Roll": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": [
+        "roll1..12"
+      ],
+      "bubblesGap": 40,
+      "labelsGap": 44,
+      "origin": [
+        145,
+        205
+      ]
+    },
+    "Int_Block_Q1": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": [
+        "exam code1..3"
+      ],
+      "bubblesGap": 40,
+      "labelsGap": 44,
+      "origin": [
+        835,
+        205
+      ]
+    },
+    "Part_A_Block": {
+      "fieldType": "QTYPE_MCQ4",
+      "fieldLabels": [
+        "q1..10"
+      ],
+      "bubblesGap": 40,
+      "labelsGap": 39,
+      "origin": [
+        150,
+        780
+      ]
+    },
+    "Part_D_Block": {
+      "fieldType": "QTYPE_INT_0_TO_7",
+      "fieldLabels": [
+        "part_d1", "part_d2", "part_d3", "part_d4", "part_d5", "part_d6", "part_d7"
+      ],
+      "bubblesGap": 42,
+      "labelsGap": 40,
+      "origin": [
+        150,
+        1330
+      ]
+    }
+  },
+  "preProcessors": [
+    {
+      "name": "CropPage",
+      "options": {
+        "morphKernel": [
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "name": "CropOnMarkers",
+      "options": {
+        "relativePath": "omr_marker.jpg",
+        "sheetToMarkerWidthRatio": 17
+      }
+    }
+  ]
+}
